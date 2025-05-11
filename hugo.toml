@@ -1,5 +1,5 @@
 title = "Code Vibe Blogs"
-baseURL = 'https://blogs.mankirtasingh.com/'
+baseURL = 'https://blog.mankiratsingh.com/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-gb'
