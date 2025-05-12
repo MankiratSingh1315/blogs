@@ -1,12 +1,12 @@
 ---
-title: ABI Compliance Reporting for PostgreSQL - Part 1
+title: ABI Compliance Reporting for PostgreSQL - The Plan - Part 1
 date: 2025-05-12
 author: Mankirat Singh
 description: This blog is about explaining the ABI compliance checker and how it will be implemented in PostgreSQL.
 tags: ["psql", "abicc"]
 ---
 
-# Automated ABI Compliance Reporting for PostgreSQL - The Plan - Part 1
+# The Plan - Part 1
 
 ## Who am I?
 I am **Mankirat Singh**, a 3rd Year Computer Engineering undergrad from India, passionate about building any piece of tech. This year, I will work with PostgreSQL to develop an **ABI Compliance reporting system** for the official PostgreSQL Repository under the **Google Summer of Code 2025** Program.
@@ -42,7 +42,7 @@ The individual clients that run the tests are called "members" or "animals". Eac
 Volunteers Join the Build Farm members list to have the build farm client run on their machines on cron jobs and perform regular testing on newer commits(if there are some) and send the results to the build farm central server.<br>
 The client machines could be using any compiler, operating system and any specific version of these of the volunteers' choice to perform testing on PostgreSQL which makes build farm a real distributed system.
 #### Build Farm Server
-The build farm server is responsible only for receiving the testing results from authorised clients, processing and viewing them on the web and sending email notifications to the people on the mailing list.
+The build farm server is responsible for receiving the testing results from authorised clients, processing and viewing them on the web and sending email notifications to the people on the mailing list.
 #### Why to use the build farm for ABI compliance reporting?
 As all the above mentioned features are already present in the build farm which resonate the requirements of the tool, and it also have the possibility of creating extensions for build farm client which made build farm a perfect choice to implement this tool on.
 
