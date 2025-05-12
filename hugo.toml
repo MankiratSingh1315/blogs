@@ -28,8 +28,8 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 # [services]
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
 # To disable Google Analytics, simply leave the field empty or remove the next two lines
-  # [services.googleAnalytics]
-    # id = '' # G-MEASUREMENT_ID
+  [services.googleAnalytics]
+    id = 'G-0DGJGVK6DD' # G-MEASUREMENT_ID
 
 # To enable Disqus comments, provide Disqus Shortname below.
 # To disable Disqus comments, simply leave the field empty or remove the next two lines
@@ -101,7 +101,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Code Vibe Blogs"
   name = "Mankirat Singh"
-  description = "Hi There! I am Mankirat Singh, a 3rd year computer engineer student and a tech enthusiast. Starting these blogs out of curiosity to know hugo and document my coding journey."
+  description = "Hi There! I am Mankirat Singh, a 3rd year computer engineering student and a tech enthusiast. Starting these blogs out of curiosity to know hugo and document my coding journey."
 
 # Allow to override webmanifest options
 [Languages.en-gb.params.webmanifest]
