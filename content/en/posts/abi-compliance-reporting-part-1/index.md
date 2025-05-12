@@ -3,7 +3,7 @@ title: ABI Compliance Reporting for PostgreSQL - The Plan - Part 1
 date: 2025-05-12
 author: Mankirat Singh
 description: This blog is about explaining the ABI compliance checker and how it will be implemented in PostgreSQL.
-tags: ["psql", "abicc"]
+tags: ["PostgreSQL", "abicc"]
 ---
 
 # The Plan - Part 1
