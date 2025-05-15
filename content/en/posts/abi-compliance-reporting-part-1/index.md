@@ -45,5 +45,5 @@ The build farm server is responsible for receiving the testing results from auth
 As all the above mentioned features are already present in the build farm which resonate the requirements of the tool, and it also have the possibility of creating extensions for build farm client which made build farm a perfect choice to implement this tool on.
 
 # How build farm will be used for this tool?
-Dropping soon in part 2 of this blog :)<br>
+Dropped in [part 2 of this blog](/posts/abi-compliance-reporting-part-2/) :)<br>
 Thanks for reading!
