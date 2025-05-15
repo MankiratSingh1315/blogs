@@ -1,7 +1,7 @@
 ---
 title: My First Blog
 date: 2025-05-10
-author: Hugo Authors
+author: Mankirat Singh
 description: Introducing Myself – Mankirat Singh | GSoC 2025 Contributor @ PostgreSQL 🚀
 isStarred: true
 ---

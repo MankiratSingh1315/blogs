@@ -2,11 +2,9 @@
 title: ABI Compliance Reporting for PostgreSQL - The Plan - Part 1
 date: 2025-05-12
 author: Mankirat Singh
-description: This blog is about explaining the ABI compliance checker and how it will be implemented in PostgreSQL.
+description: This blog introduces the motivation and initial plan for implementing an automated ABI compliance reporting system for PostgreSQL. I have talked about ABIs, ABI stability, recent incidents highlighting the need for automation, and explores the constraints and requirements for such a tool.
 tags: ["PostgreSQL", "abicc"]
 ---
-
-# The Plan - Part 1
 
 ## Who am I?
 I am **Mankirat Singh**, a 3rd Year Computer Engineering undergrad from India, passionate about building any piece of tech. This year, I will work with PostgreSQL to develop an **ABI Compliance reporting system** for the official PostgreSQL Repository under the **Google Summer of Code 2025** Program.
