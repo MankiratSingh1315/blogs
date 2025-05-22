@@ -78,7 +78,19 @@ The [build farm server](https://github.com/PGBuildFarm/server-code) is responsib
     The existing build farm database schema will be updated to store ABI compliance reports, ensuring that all relevant data is captured and can be referenced for future analysis and reporting.
 
 ## Outline of Approach
-![Image](outline.png)
+<style>
+body.dark .light-img {
+    display:none
+}
+
+body:not(.dark) .dark-img {
+    display:none
+}
+</style>
+
+<img src="dark-outline.png" alt="Logo" class="dark-img">
+<img src="light-outline.png" alt="Logo" class="light-img">
+
 **Note -** `abidw` emits an XML representation of its ABI to standard output. The emitted representation format, is named ABIXML, which contains the raw form of ABI data of an ELF binary.
 
 # What's next?
