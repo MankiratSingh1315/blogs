@@ -19,7 +19,7 @@ So, let's dive into the details of what I've been up to!
 3. Fixing the `run_branches.pl` script.
 4. Sending results to the buildfarm server.
 
-The fourth task, sending results to the buildfarm, proved to be the most challenging. Initially, I thought it would be as simple as using the `run_web_txn` function from the web module. Modern AI tools were of little help, as they struggled to generate meaningful Perl code, likely due to the scarcity of large Perl codebases in their training data.
+The fourth task, sending results to the buildfarm, proved to be the most challenging. Initially, I thought it would be as simple as using the `run_web_txn` function from the web module. I tried get help using AI for this but it ended up generating some random AI slop which just don't work as big tech tech don't have much Perl codebases in their datasets lol.
 
 However, the buildfarm client performs a single web transaction at the very end of a run. It creates a `.tgz` archive containing all logs and results from the run and sends this single file to the buildfarm server for the specific branch being tested.
 
