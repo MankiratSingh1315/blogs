@@ -7,7 +7,7 @@ tags: ["PostgreSQL", "abicc"]
 cover:
     image: "/abicccommoncover.png"
     alt: "banner image"
-    relative: true
+    relative: false
 ---
 In my last post, "[June, BuildFarm and ABIs](https://blog.mankiratsingh.com/posts/june-postgres-and-abicc/)" I mentioned my next step would be setting up the buildfarm server. However, plans have shifted slightly. This past week, I focused on minor bug fixes and, more importantly, figuring out how to send ABI compliance reports to the buildfarm server.
 
