@@ -5,7 +5,7 @@ author: Mankirat Singh
 description: Progress on ABI Compliance Reporting with BuildFarm
 tags: ["PostgreSQL", "abicc"]
 cover:
-    image: "/posts/abicccommoncover.png"
+    image: "/abicccommoncover.png"
     alt: "banner image"
     relative: true
 ---
